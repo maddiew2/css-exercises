@@ -1,0 +1,20 @@
+/* * **The first element**: a black background, white text color, and a bold font weight
+   * **The second element**: a yellow background
+   * **Both elements**: a font size of 28px and a list of fonts containing `Helvetica` 
+       and `Times New Roman`, with `sans-serif` as a fallback  */
+
+.click-me {
+    background-color: rgb(23, 22, 22);
+    color: white;
+    font-weight: bold;
+}
+
+.no-me {
+    background-color: rgb(239, 227, 141);
+}
+
+.click-me, 
+.no-me {
+    font-size: 28px;
+    font-family: 'Times New Roman', 'sans-serif';
+}
